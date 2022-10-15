@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>university admit eligibility predictor</title>
+    <link rel="stylesheet" href="../static/css/background.css" />
+</head>
+<body>
+<center>
+<div class="opacity"></div>
+    <div class="big">
+<nav>
+<ul>
+  <li><a class="active" href="/home1">Home</a></li>
+  <li><a href="/assesment">Predict</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+</nav>
+              <h1><B>UNIVERSITY ADMIT ELIGIBILITY PREDICTOR</B><h1>
+      <h2><B>Enter Your Details And Get Probablity Of Your Admission</B></h2>
+<br>
+         <div class="form1">
+
+            <form method="POST" action="{{url_for('y_predict')}}">
+                <B> Enter GRE Score : <input type="text" name="t1" placeholder="GRE Score (out of 340)" required="required"/><br><br>
+                    Enter TOEFL Score : <input type="text" name="t2" placeholder="TOEFL Score (out of 120)" required="required"/><br><br>
+                  <lable for="University Rating"> University Rating : </lable><br>
+                       <input type="radio" name="University Rating" value=1>1</input><br>
+                       <input type="radio" name="University Rating" value=2>2</input><br>
+                      <input type="radio" name="University Rating" value=3>3</input><br>
+                      <input type="radio" name="University Rating" value=4>4</input><br>
+                      <input type="radio" name="University Rating" value=5>5</input><br>
+                                  <br>
+                  Enter  SOP<input type="text" name="sop" placeholder="SOP (out of 5)"  required="required"/><br><br>
+                  Enter  LOR <input type="text" name="lor" placeholder="LOR (out of 5)"  required="required"/><br><br>
+                  Enter  CGPA<input type="text" name="cgpa" placeholder="CGPA (out of 10)" required="required"/><br><br>
+
+                       Research<br> <input type="radio" name="research" value="1" > Research  <br>
+                        <input type="radio" name="research" value="0">  NO Research <br><br>
+  
+                 <button type="submit">Predict</button></B>
+          </form>
+
+       </div>
+<br>
+<div class="footer">2022 University Admit Eligibility Predictor</div></center>   
+
+</center>
+       
+</div>
+
+</body>
+
+</html>
