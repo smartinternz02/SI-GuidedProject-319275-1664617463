@@ -1,0 +1,162 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+ font-size:20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active{
+background-color: gray;
+color: white;
+}
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+
+
+h1{
+    font-family: arial;
+    color: #2B1B17;
+    text-align: center;
+    font-size:40px;
+}
+h2{
+    font-family: -apple-system;
+    color: #C04000;
+}
+
+
+
+.big{
+    z-index: 5;
+    position: relative;
+    margin: 50px;
+    box-sizing: border-box;
+    margin:25px auto;
+     color: #0C090A;
+}
+.opacity{
+    background: url("../image/20191107_StJohns_Fall-304.jpg ");
+    opacity: 0.60;
+    filter: alpha(opacity=60);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+     
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.opacity3{
+    background: url("../image/20131114DD078-1-864x576.jpg");
+    opacity: 0.20;
+    filter: alpha(opacity=60);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+     
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.opacity2{
+    background: url("../image/th (12).jpg ");
+    opacity: 0.20;
+    filter: alpha(opacity=60);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+     
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.h-container {
+width: 100%;
+height: auto;
+background-color: #FF9;
+margin-right: auto;
+margin-left: auto;
+color: #066;
+}
+
+.form1{
+background-color:rgba(0,0,0,0.2);
+width:30%;
+font-size:20px;
+border-radius:10px;
+border:6px soid rgba(255,255,255,0.5);
+box-shadow:1px 1px 20px
+rgba(1,1,1,1);
+}
+
+.form2{
+width:50%;
+font-size:20px;
+border-radius:10px;
+border:6px soid rgba(255,255,255,0.5);
+box-shadow:1px 1px 20px
+rgba(1,1,1,1);
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row-space {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: #666;
+  color: #FFF;
+  margin-bottom: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  }
